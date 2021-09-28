@@ -22,4 +22,11 @@ j = int(input("what number would you like to add?: "))
 new_x.insert(0,j)    
 
 print(new_x)
+#Or
 
+k = int(input("what number would you like to add?: "))
+new_x.append(k)
+
+print(new_x)
+
+#This just adds it to the end of the list
